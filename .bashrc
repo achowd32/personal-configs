@@ -20,6 +20,11 @@ PS2="> "
 shopt -s extglob
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
+# bindings
+bind 'set show-all-if-ambiguous on'
+bind 'set menu-complete on'
+bind 'TAB:menu-complete'
+
 # aliases
 alias ..='cd ..'
 alias ...='cd ../..'

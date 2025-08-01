@@ -64,6 +64,9 @@ set tabstop=4 shiftwidth=4 expandtab
 autocmd FileType javascript :setlocal tabstop=2 shiftwidth=2 expandtab
 autocmd FileType json :setlocal tabstop=2 shiftwidth=2 expandtab
 
+" comment settings
+autocmd FileType c setlocal commentstring=//\ %s
+
 " key mappings:
 nnoremap oo o<Esc>k
 nnoremap <silent> s :call <SID>CommentLine()<CR>

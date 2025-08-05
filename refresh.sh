@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cd "$(dirname $0)"
-cp ~/.bashrc .
-cp ~/.vimrc .
-cp ~/tmux.conf .
+cp ~/.bashrc configs/ 
+cp ~/.vimrc configs/
+cp ~/tmux.conf configs/
